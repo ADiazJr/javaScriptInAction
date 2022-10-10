@@ -102,18 +102,18 @@ let magicNumber = Math.floor(Math.random() * 101);
 let guess = 0;
 
 while(guess != magicNumber){
-    guess = prompt('What is the Magic Number?')
+    guess = prompt('What is the Magic Number?');
     if(guess < magicNumber){
-        console.log('Too Low!')
+        console.log('Too Low!');
     }
     else if(guess > magicNumber){
-        console.log('Too High!')
+        console.log('Too High!');
     }
     if(guess == magicNumber){
-        console.log(`Congrats the magic number is ${magicNumber}`)
+        console.log(`Congrats the magic number is ${magicNumber}`);
     }
     else if(guess - magicNumber >= -10 && guess - magicNumber <= 10){
-        console.log('Getting Warmer')
+        console.log('Getting Warmer');
     }
     
 }
